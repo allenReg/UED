@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: MS PGothic;
+	border:0;
+}
+p{
+	line-height: 18px;
+}
+h1{
+	color: #D8D8D8;
+}
+
+/*总框架*/
+
+table{
+	width: 1335px;
+	height: 1420px;
+	background-image: 
+	url(../img/background.jpg);
+	margin: 0 5px;
+}
+thead>tr{
+	background:rgba(0,0,0,0.6);
+	width: 1340px;
+	height: 35px;
+	box-shadow: 1px 1px 1px 1px gray;
+}
+tbody>tr>td{
+	width: 980px;
+}
+tbody>tr#par0{
+	height: 35px;
+	width: 980px;
+}
+tbody>tr>th{
+	width: 180px;
+}
+tbody>tr#par1>td{
+	height: 65px;
+	background-color: red;
+}
+tbody>tr#par2>td{
+	height: 75px;
+	background-color: blue;
+}
+tbody>tr#par3>td{
+	height: 490px;
+	background-color: yellow;
+}
+tbody>tr#par4>td{
+	height: 635px;
+	background-color: white;
+}
+tfoot>tr>td{
+	height: 40px;
+	background-color: red;
+}
